@@ -1,4 +1,4 @@
-import java.awt.Color
+
 
 fun main(){
     val cars = Car("LandRover","Discovery","black",8)
@@ -21,7 +21,7 @@ fun main(){
 
 }
  open class Car(var make:String, var model:String, var colour:String, var capacity:Int){
-    fun carry(people:Int,) {
+    fun carry(people:Int) {
         if (people <= capacity) {
             println("Carrying $people passengers")
 
